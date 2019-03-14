@@ -3,11 +3,10 @@
 // @version  1
 // @include  https://www.auxmoney.com/anlegercockpit/returns
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js
-// @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @require https://greasyfork.org/scripts/5392-waitforkeyelements/code/WaitForKeyElements.js?version=115012
 // @grant    GM_addStyle
 // @grant    GM.getValue
 // ==/UserScript==
-
 
 var regex = /(\/project\/details\/)([0-9]+)$/i;
 
